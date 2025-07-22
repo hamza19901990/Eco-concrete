@@ -54,7 +54,7 @@ st.write(df)
 st.write('---')
 
 # Load pre-trained model
-model = pickle.load(open('optimized_gbrt_model.pkl', 'rb'))  # Make sure model is retrained for new input structure
+model = pickle.load(open('svr_model.pkl', 'rb'))  # Make sure model is retrained for new input structure
 
 # Predict compressive strength
 st.header('Predicted Compressive Strength (Cs in MPa)')
